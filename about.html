@@ -127,14 +127,14 @@
 
         .gallery {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             gap: 1rem;
             margin-top: 2rem;
         }
 
         .gallery img {
             width: 100%;
-            height: 200px;
+            height: 220px;
             object-fit: cover;
             border-radius: 8px;
         }
@@ -211,7 +211,11 @@
             border-top: none;
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 900px) {
+            .gallery { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        @media (max-width: 600px) {
             .gallery { grid-template-columns: 1fr; }
         }
     </style>
@@ -251,6 +255,7 @@
             <div class="gallery">
                 <img src="assets/images/everest-base-camp.jpg" alt="Everest Base Camp">
                 <img src="assets/images/IMG_0240.jpg" alt="Wadi Rum">
+                <img src="assets/images/lake-reflection.jpg" alt="Lake reflection">
             </div>
         </section>
 
