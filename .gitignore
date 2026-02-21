@@ -212,4 +212,6 @@ __marimo__/
 /IMG_*.jpg
 /PXL_*.jpg
 /PXL_*.JPG
-*.pdf
+/image.png
+/*.pdf
+!assets/*.pdf
