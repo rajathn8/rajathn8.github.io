@@ -80,6 +80,7 @@
         .hero {
             padding: 8rem 0 4rem;
             text-align: center;
+            background: var(--cream);
         }
 
         .hero img {
@@ -198,11 +199,16 @@
         }
 
         footer {
-            background: var(--dark);
-            color: #666;
+            background: var(--cream);
+            color: var(--gray);
             text-align: center;
             padding: 2rem;
             font-size: 0.85rem;
+            border-top: 1px solid #eee;
+        }
+
+        section:first-of-type {
+            border-top: none;
         }
 
         @media (max-width: 768px) {
@@ -223,13 +229,15 @@
         </div>
     </nav>
 
-    <div class="container">
-        <div class="hero">
+    <div class="hero">
+        <div class="container">
             <img src="assets/images/everest-base-camp.jpg" alt="Rajath at Everest Base Camp">
             <h1>Rajath Rao</h1>
             <p>Engineer by profession. Explorer by passion.</p>
         </div>
+    </div>
 
+    <div class="container">
         <section>
             <h2>My Story</h2>
             <p>I started my journey in tech in 2017, fresh out of <strong>Visvesvaraya Technological University</strong> with an engineering degree. My first role at <strong>IBM</strong> introduced me to data analytics and automation - and I was hooked.</p>

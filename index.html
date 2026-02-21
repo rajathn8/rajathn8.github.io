@@ -299,17 +299,8 @@
 
         /* Contact */
         .contact-section {
-            background: var(--dark);
-            color: white;
+            background: var(--cream);
             padding: 5rem 0;
-        }
-
-        .contact-section .section-title {
-            color: white;
-        }
-
-        .contact-section .section-title::after {
-            background: #333;
         }
 
         .contact-grid {
@@ -320,15 +311,16 @@
         }
 
         .contact-card {
-            background: rgba(255,255,255,0.05);
+            background: var(--white);
             padding: 1.25rem;
             border-radius: 8px;
             text-align: center;
-            transition: background 0.2s;
+            transition: all 0.2s;
+            border: 1px solid #eee;
         }
 
         .contact-card:hover {
-            background: rgba(255,255,255,0.1);
+            border-color: var(--orange);
         }
 
         .contact-card svg {
@@ -346,17 +338,17 @@
 
         .contact-card p {
             font-size: 0.8rem;
-            color: #999;
+            color: var(--gray);
         }
 
         .contact-cta {
             text-align: center;
             padding-top: 2rem;
-            border-top: 1px solid #333;
+            border-top: 1px solid #eee;
         }
 
         .contact-cta p {
-            color: #999;
+            color: var(--gray);
             margin-bottom: 1rem;
         }
 
@@ -372,12 +364,12 @@
 
         /* Footer */
         footer {
-            background: var(--dark);
-            color: #666;
+            background: var(--cream);
+            color: var(--gray);
             text-align: center;
             padding: 2rem;
             font-size: 0.85rem;
-            border-top: 1px solid #333;
+            border-top: 1px solid #eee;
         }
 
         /* Mobile */
