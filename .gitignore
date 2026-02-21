@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Original image files (copies are in assets/images/)
+*.HEIC
+/IMG_*.JPG
+/IMG_*.jpg
+/PXL_*.jpg
+/PXL_*.JPG
+*.pdf
