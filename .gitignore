@@ -215,3 +215,6 @@ __marimo__/
 /image.png
 /*.pdf
 !assets/*.pdf
+
+# Personal notes (not for commit)
+.expectations.md
