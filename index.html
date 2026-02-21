@@ -282,66 +282,21 @@
             position: relative;
         }
 
-        /* SPINNING ORBIT RINGS */
-        .orbit {
-            position: absolute;
-            border: 2px solid rgba(232, 93, 4, 0.2);
-            border-radius: 50%;
-            animation: orbit-spin 20s linear infinite;
-        }
-
-        .orbit-1 {
-            width: 420px;
-            height: 420px;
-            border-style: dashed;
-        }
-
-        .orbit-2 {
-            width: 480px;
-            height: 480px;
-            animation-direction: reverse;
-            animation-duration: 30s;
-            border-color: rgba(232, 93, 4, 0.1);
-        }
-
-        .orbit-dot {
-            position: absolute;
-            width: 12px;
-            height: 12px;
-            background: var(--orange);
-            border-radius: 50%;
-            top: 50%;
-            left: 0;
-            transform: translate(-50%, -50%);
-            box-shadow: 0 0 20px rgba(232, 93, 4, 0.5);
-        }
-
-        @keyframes orbit-spin {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
-
         .hero-image img {
-            width: 350px;
-            height: 350px;
-            border-radius: 50%;
+            width: 380px;
+            height: 380px;
+            border-radius: 30px;
             object-fit: cover;
-            border: 6px solid var(--white);
-            box-shadow: 0 30px 80px rgba(232, 93, 4, 0.3);
+            border: 5px solid var(--white);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(232, 93, 4, 0.1);
             position: relative;
             z-index: 1;
-            animation: photo-pulse 4s ease-in-out infinite;
+            transition: all 0.4s ease;
         }
 
-        @keyframes photo-pulse {
-            0%, 100% {
-                transform: scale(1);
-                box-shadow: 0 30px 80px rgba(232, 93, 4, 0.3);
-            }
-            50% {
-                transform: scale(1.02);
-                box-shadow: 0 40px 100px rgba(232, 93, 4, 0.4);
-            }
+        .hero-image img:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 40px 80px rgba(232, 93, 4, 0.2), 0 0 0 2px rgba(232, 93, 4, 0.2);
         }
 
         .hero-content {
@@ -879,12 +834,9 @@
             }
 
             .hero-image img {
-                width: 260px;
-                height: 260px;
+                width: 280px;
+                height: 280px;
             }
-
-            .orbit-1 { width: 300px; height: 300px; }
-            .orbit-2 { width: 360px; height: 360px; }
 
             .hero h1 {
                 font-size: 2.5rem;
@@ -981,8 +933,6 @@
                 </div>
             </div>
             <div class="hero-image">
-                <div class="orbit orbit-1"><div class="orbit-dot"></div></div>
-                <div class="orbit orbit-2"></div>
                 <img src="assets/images/profile-home.png" alt="Rajath Rao">
             </div>
         </div>
