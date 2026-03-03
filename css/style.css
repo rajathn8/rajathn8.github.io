@@ -1164,46 +1164,6 @@ h3 { font-size: 1.25rem; }
     line-height: 1.7;
 }
 
-/* Fun Facts */
-.facts-section {
-    padding: 6rem 2rem;
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
-}
-
-.facts-container {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.facts-section .section-title h2,
-.facts-section .section-title p {
-    color: var(--white);
-}
-
-.facts-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
-}
-
-.fact-item {
-    text-align: center;
-    color: var(--white);
-}
-
-.fact-number {
-    font-size: 3.5rem;
-    font-weight: 700;
-    display: block;
-    line-height: 1;
-    margin-bottom: 0.5rem;
-}
-
-.fact-label {
-    font-size: 1rem;
-    opacity: 0.9;
-}
-
 /* Connect Section */
 .connect-section {
     padding: 6rem 2rem;
