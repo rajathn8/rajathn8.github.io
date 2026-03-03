@@ -804,6 +804,105 @@
             z-index: 1;
         }
 
+        /* Projects Section */
+        .projects-section {
+            background: linear-gradient(180deg, var(--dark) 0%, #0f0f0f 100%);
+            color: white;
+            padding: 5rem 0;
+        }
+
+        .projects-section .section-tag {
+            background: rgba(255,255,255,0.1);
+            color: var(--orange-light);
+        }
+
+        .projects-section .section-title {
+            color: white;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .project-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 20px;
+            padding: 2rem;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(232, 93, 4, 0.1) 0%, rgba(244, 140, 6, 0.1) 100%);
+            opacity: 0;
+            transition: opacity 0.4s;
+        }
+
+        .project-card:hover::before {
+            opacity: 1;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--orange);
+            box-shadow: 0 20px 40px rgba(232, 93, 4, 0.2);
+        }
+
+        .project-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            display: inline-block;
+            transition: transform 0.4s;
+        }
+
+        .project-card:hover .project-icon {
+            transform: scale(1.2) rotate(5deg);
+        }
+
+        .project-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 0.75rem;
+            color: white;
+            position: relative;
+            z-index: 1;
+        }
+
+        .project-card p {
+            color: rgba(255,255,255,0.7);
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .project-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .project-tag {
+            padding: 0.4rem 0.9rem;
+            background: rgba(232, 93, 4, 0.15);
+            border: 1px solid rgba(232, 93, 4, 0.3);
+            border-radius: 15px;
+            font-size: 0.75rem;
+            color: rgba(255,255,255,0.9);
+        }
+
         /* Contact */
         .contact-section {
             background: linear-gradient(135deg, var(--cream) 0%, var(--white) 100%);
@@ -1001,6 +1100,7 @@
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -1307,6 +1407,83 @@
             </div>
             <div style="margin-top: 3rem; text-align: center; position: relative; z-index: 1;">
                 <a href="about.html" class="btn btn-primary">More About Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-section">
+        <div class="container">
+            <div class="section-header fade-up">
+                <div class="section-tag">Projects</div>
+                <h2 class="section-title">Featured Work</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card fade-up">
+                    <div class="project-icon">🤖</div>
+                    <h3>AI Beer Ratings Predictor</h3>
+                    <p>Built a neural network classifier to predict beer ratings using NLP and machine learning techniques. Achieved 85% accuracy on test data.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">NLP</span>
+                        <span class="project-tag">Neural Networks</span>
+                        <span class="project-tag">TensorFlow</span>
+                    </div>
+                </div>
+                <div class="project-card fade-up">
+                    <h3>Kubernetes Chaos Monkey</h3>
+                    <p>Implemented chaos engineering practices for Kubernetes clusters to test resilience and fault tolerance of microservices.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Kubernetes</span>
+                        <span class="project-tag">Docker</span>
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">DevOps</span>
+                    </div>
+                </div>
+                <div class="project-card fade-up">
+                    <div class="project-icon">📊</div>
+                    <h3>String Similarity Algorithm Study</h3>
+                    <p>Detailed research and implementation of various string similarity algorithms including Levenshtein, Jaccard, and Cosine similarity for search optimization.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">NLP</span>
+                        <span class="project-tag">Algorithms</span>
+                        <span class="project-tag">Search</span>
+                    </div>
+                </div>
+                <div class="project-card fade-up">
+                    <div class="project-icon">🗣️</div>
+                    <h3>Speech Recognition App</h3>
+                    <p>Voice-to-text application using AWS Transcribe for real-time speech recognition with high accuracy across multiple accents.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">AWS Transcribe</span>
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Real-time</span>
+                    </div>
+                </div>
+                <div class="project-card fade-up">
+                    <div class="project-icon">🚗</div>
+                    <h3>Ebay Car Sales Predictor</h3>
+                    <p>Markov Decision Process model to analyze and predict car sale prices on Ebay based on historical data and market trends.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Machine Learning</span>
+                        <span class="project-tag">Data Analysis</span>
+                    </div>
+                </div>
+                <div class="project-card fade-up">
+                    <div class="project-icon">🛒</div>
+                    <h3>E-commerce Web Application</h3>
+                    <p>Full-stack e-commerce platform built on AWS with serverless architecture, payment integration, and real-time inventory management.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">AWS</span>
+                        <span class="project-tag">Lambda</span>
+                        <span class="project-tag">DynamoDB</span>
+                        <span class="project-tag">API Gateway</span>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 3rem; text-align: center;">
+                <a href="https://github.com/rajathn8" target="_blank" class="btn btn-primary">View All on GitHub</a>
             </div>
         </div>
     </section>
