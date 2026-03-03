@@ -804,6 +804,132 @@
             z-index: 1;
         }
 
+        /* Certifications Section */
+        .certifications-section {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            padding: 5rem 0;
+            position: relative;
+        }
+
+        .cert-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .cert-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.1);
+            padding: 2rem;
+            border-radius: 20px;
+            text-align: center;
+            transition: all 0.4s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cert-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(232, 93, 4, 0.1) 0%, rgba(244, 140, 6, 0.1) 100%);
+            opacity: 0;
+            transition: opacity 0.4s;
+        }
+
+        .cert-card:hover::before {
+            opacity: 1;
+        }
+
+        .cert-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--orange);
+            box-shadow: 0 20px 40px rgba(232, 93, 4, 0.2);
+        }
+
+        .cert-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            display: inline-block;
+            transition: transform 0.4s;
+        }
+
+        .cert-card:hover .cert-icon {
+            transform: scale(1.2) rotate(10deg);
+        }
+
+        .cert-card h3 {
+            font-size: 1.2rem;
+            color: white;
+            margin-bottom: 0.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cert-card p {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.6);
+            position: relative;
+            z-index: 1;
+        }
+
+        .cert-badge {
+            display: inline-block;
+            padding: 0.3rem 0.8rem;
+            background: rgba(232, 93, 4, 0.2);
+            border: 1px solid rgba(232, 93, 4, 0.4);
+            border-radius: 12px;
+            font-size: 0.75rem;
+            color: var(--orange-light);
+            margin-top: 0.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Achievements Section */
+        .achievements-section {
+            background: var(--cream);
+            padding: 4rem 0;
+        }
+
+        .achievements-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .achievement-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            transition: all 0.3s;
+        }
+
+        .achievement-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(232, 93, 4, 0.15);
+        }
+
+        .achievement-number {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--orange);
+            margin-bottom: 0.5rem;
+        }
+
+        .achievement-label {
+            font-size: 1rem;
+            color: var(--gray);
+            font-weight: 500;
+        }
+
         /* Projects Section */
         .projects-section {
             background: linear-gradient(180deg, var(--dark) 0%, #0f0f0f 100%);
@@ -1384,6 +1510,102 @@
                         <span class="tag">VPC</span>
                         <span class="tag">Security Groups</span>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="certifications-section">
+        <div class="container">
+            <div class="section-header fade-up">
+                <div class="section-tag">Certifications</div>
+                <h2 class="section-title">Professional Credentials</h2>
+            </div>
+            <div class="cert-grid">
+                <div class="cert-card fade-up">
+                    <div class="cert-icon">🤖</div>
+                    <h3>Generative AI Fundamentals</h3>
+                    <p>Databricks Academy</p>
+                    <span class="cert-badge">Oct 2025</span>
+                </div>
+                <div class="cert-card fade-up">
+                    <div class="cert-icon">☁️</div>
+                    <h3>AWS Solutions Architect</h3>
+                    <p>Amazon Web Services</p>
+                    <span class="cert-badge">Associate</span>
+                </div>
+                <div class="cert-card fade-up">
+                    <div class="cert-icon">🏗️</div>
+                    <h3>HashiCorp Terraform</h3>
+                    <p>HashiCorp</p>
+                    <span class="cert-badge">Associate</span>
+                </div>
+                <div class="cert-card fade-up">
+                    <div class="cert-icon">☁️</div>
+                    <h3>AWS Developer Associate</h3>
+                    <p>Amazon Web Services</p>
+                    <span class="cert-badge">Certified</span>
+                </div>
+                <div class="cert-card fade-up">
+                    <div class="cert-icon">🌩️</div>
+                    <h3>AWS Cloud Practitioner</h3>
+                    <p>Amazon Web Services</p>
+                    <span class="cert-badge">Certified</span>
+                </div>
+                <div class="cert-card fade-up">
+                    <div class="cert-icon">🔗</div>
+                    <h3>IBM Blockchain Foundation</h3>
+                    <p>IBM</p>
+                    <span class="cert-badge">Developer V2</span>
+                </div>
+                <div class="cert-card fade-up">
+                    <div class="cert-icon">📊</div>
+                    <h3>Tableau</h3>
+                    <p>Data Visualization</p>
+                    <span class="cert-badge">Certified</span>
+                </div>
+                <div class="cert-card fade-up">
+                    <div class="cert-icon">🧠</div>
+                    <h3>Data Science</h3>
+                    <p>IBM</p>
+                    <span class="cert-badge">Certificate</span>
+                </div>
+                <div class="cert-card fade-up">
+                    <div class="cert-icon">💬</div>
+                    <h3>Natural Language Processing</h3>
+                    <p>Udacity</p>
+                    <span class="cert-badge">Nanodegree</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="achievements-section">
+        <div class="container">
+            <div class="section-header fade-up">
+                <div class="section-tag">Achievements</div>
+                <h2 class="section-title">By The Numbers</h2>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card fade-up">
+                    <div class="achievement-number">7+</div>
+                    <div class="achievement-label">Years of Experience</div>
+                </div>
+                <div class="achievement-card fade-up">
+                    <div class="achievement-number">394</div>
+                    <div class="achievement-label">LeetCode Problems Solved</div>
+                </div>
+                <div class="achievement-card fade-up">
+                    <div class="achievement-number">2,000+</div>
+                    <div class="achievement-label">LinkedIn Followers</div>
+                </div>
+                <div class="achievement-card fade-up">
+                    <div class="achievement-number">9</div>
+                    <div class="achievement-label">Professional Certifications</div>
+                </div>
+                <div class="achievement-card fade-up">
+                    <div class="achievement-number">5,364m</div>
+                    <div class="achievement-label">Everest Base Camp</div>
                 </div>
             </div>
         </div>
