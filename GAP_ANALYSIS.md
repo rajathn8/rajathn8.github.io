@@ -22,14 +22,14 @@ Audited: 2026-06-27.
 ## ❌ What we DON'T have / haven't done
 
 ### SEO & discoverability files
-- [ ] `llms.txt` — LLM-readable resume (ChatGPT/Perplexity/Claude read it)
-- [ ] `humans.txt`
-- [ ] `ai.txt` — explicit AI train/embed/cite allow
-- [ ] `ads.txt` — "no ad relationships" professional signal
-- [ ] `feed.xml` — RSS feed
-- [ ] `.well-known/security.txt` — RFC 9116
-- [ ] Image sitemap (none of our images are in `sitemap.xml`)
-- [ ] Geographic SEO meta: `geo.region`, `ICBM`, `og:locale`
+- [x] `llms.txt` — LLM-readable resume (ChatGPT/Perplexity/Claude read it) — done 2026-06-27
+- [x] `humans.txt` — done 2026-06-27
+- [x] `ai.txt` — explicit AI train/embed/cite allow — done 2026-06-27
+- [x] `ads.txt` — "no ad relationships" professional signal — done 2026-06-27
+- [x] `feed.xml` — RSS feed — done 2026-06-27
+- [x] `.well-known/security.txt` — RFC 9116 — done 2026-06-27
+- [x] Image sitemap — done 2026-06-27
+- [x] Geographic SEO meta: `geo.region`, `ICBM`, `og:locale` — done 2026-06-27
 - [ ] Cache-busting `?v=` query strings on CSS/JS
 
 ### Structured data (we have 1 graph; playbook has 6 blocks)
@@ -44,14 +44,12 @@ Audited: 2026-06-27.
 - [ ] IndexNow key file + URL submission (Bing/Yandex/Seznam)
 
 ### Crawler coverage
-- [ ] robots.txt only names 7 AI agents; playbook names ~20
-      (missing OAI-SearchBot, Bytespider, Applebot-Extended, MistralAI-User,
-      cohere-ai, Amazonbot, FacebookBot, LinkedInBot, PiplBot, archive.org_bot, etc.)
+- [x] robots.txt expanded from ~7 to ~26 named search + AI agents — done 2026-06-27
 
 ### Performance / images
-- [ ] Zero WebP — all images are JPG/PNG
-- [ ] Large unoptimized hero images: `everest-base-camp.jpg` 2.6MB, `hiking.jpg` 2.6MB, `lake-reflection.jpg` 0.9MB
-- [ ] Two huge stray root PNGs likely unused: `theme.png` 4.6MB, `evereset_walk_1.png` 3.7MB (candidates to delete or move)
+- [x] WebP — all 12 images converted (9.05MB → 5.54MB) — done 2026-06-27
+- [x] Large hero images optimized + `<img>` tags swapped to WebP — done 2026-06-27
+- [ ] Two huge stray root PNGs likely unused: `theme.png` 4.6MB, `evereset_walk_1.png` 3.7MB (confirmed unreferenced — awaiting OK to delete)
 - [ ] No dedicated branded 1200×630 OG image (we reuse `profile-home.png`)
 
 ### Contact / conversion (lighter on this site by design, but available levers)
