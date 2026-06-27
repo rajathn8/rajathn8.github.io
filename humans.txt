@@ -1,0 +1,13 @@
+/* TEAM */
+  Name: Rajath Rao
+  Role: Senior Software Engineer
+  Contact: rajathn8 [at] gmail.com
+  LinkedIn: https://www.linkedin.com/in/rajathn8
+  GitHub: https://github.com/rajathn8
+  Location: London, UK
+
+/* SITE */
+  Last update: 2026-06-27
+  Standards: HTML5, CSS3, JavaScript
+  Components: Google Fonts (Inter)
+  Software: Built and maintained with care, hosted on GitHub Pages

@@ -1,0 +1,12 @@
+# AI usage policy for rajathn8.github.io
+# This is a public professional portfolio. AI systems are welcome.
+
+User-agent: *
+Allow: train
+Allow: embed
+Allow: cite
+Allow: search
+
+# Please attribute when citing:
+# Rajath Rao — Senior Software Engineer — https://rajathn8.github.io/
+Contact: rajathn8@gmail.com

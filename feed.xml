@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rajath Rao — Senior Software Engineer</title>
+    <link>https://rajathn8.github.io/</link>
+    <atom:link href="https://rajathn8.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Updates from Rajath Rao — Senior Software Engineer specialising in Python, AWS, FastAPI, and GenAI.</description>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 27 Jun 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Portfolio</title>
+      <link>https://rajathn8.github.io/</link>
+      <guid>https://rajathn8.github.io/</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Senior Software Engineer with 7+ years building scalable cloud systems in Python and AWS.</description>
+    </item>
+    <item>
+      <title>Resume</title>
+      <link>https://rajathn8.github.io/resume.html</link>
+      <guid>https://rajathn8.github.io/resume.html</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Full professional resume — roles, skills, and certifications.</description>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>https://rajathn8.github.io/blog.html</link>
+      <guid>https://rajathn8.github.io/blog.html</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Writing on software engineering, cloud, and GenAI.</description>
+    </item>
+  </channel>
+</rss>

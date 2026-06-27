@@ -1,26 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://rajathn8.github.io/</loc>
-    <lastmod>2026-03-06</lastmod>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://rajathn8.github.io/assets/images/profile-home.png</image:loc>
+      <image:title>Rajath Rao — Senior Software Engineer</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rajathn8.github.io/assets/images/hiking.webp</image:loc>
+      <image:title>Rajath Rao</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://rajathn8.github.io/about.html</loc>
-    <lastmod>2026-03-06</lastmod>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://rajathn8.github.io/assets/images/everest-base-camp.webp</image:loc>
+      <image:title>Everest Base Camp</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rajathn8.github.io/assets/images/himalaya-trek.webp</image:loc>
+      <image:title>Himalaya Trek</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rajathn8.github.io/assets/images/lake-reflection.webp</image:loc>
+      <image:title>Lake Reflection</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://rajathn8.github.io/resume.html</loc>
-    <lastmod>2026-03-06</lastmod>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://rajathn8.github.io/blog.html</loc>
-    <lastmod>2026-03-06</lastmod>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

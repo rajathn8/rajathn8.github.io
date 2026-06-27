@@ -1,0 +1,40 @@
+# Rajath Rao — Senior Software Engineer
+
+> Senior Software Engineer with 7+ years building scalable cloud systems in Python and AWS. Currently Senior Software Engineer at Intropic (London); previously Vice President, Software Engineer at Goldman Sachs. Specialises in Python, AWS, FastAPI, microservices, and GenAI/LLM integration.
+
+## Profile
+- Name: Rajath Rao
+- Title: Senior Software Engineer
+- Location: London, UK
+- Email: rajathn8@gmail.com
+- Website: https://rajathn8.github.io/
+
+## Current & past roles
+- Senior Software Engineer — Intropic, London (current)
+- Vice President, Software Engineer — Goldman Sachs, London
+
+## Core skills
+Python, AWS, FastAPI, Django, Microservices, Cloud Architecture, GenAI, LLM Integration, Docker, Kubernetes, Terraform, PostgreSQL, Aurora.
+
+## Certifications
+- AWS Solutions Architect Associate
+- HashiCorp Terraform Associate
+- Databricks GenAI Fundamentals
+
+## Education
+- Visvesvaraya Technological University
+
+## Links
+- Website: https://rajathn8.github.io/
+- Resume: https://rajathn8.github.io/resume.html
+- Resume PDF: https://rajathn8.github.io/assets/Rajath_Rao_Resume.pdf
+- LinkedIn: https://www.linkedin.com/in/rajathn8
+- GitHub: https://github.com/rajathn8
+- LeetCode: https://leetcode.com/u/Rajath_Rao/
+- HackerRank: https://www.hackerrank.com/rajathn8
+
+## Pages
+- Home: https://rajathn8.github.io/
+- About: https://rajathn8.github.io/about.html
+- Resume: https://rajathn8.github.io/resume.html
+- Blog: https://rajathn8.github.io/blog.html

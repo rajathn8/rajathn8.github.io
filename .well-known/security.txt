@@ -1,0 +1,5 @@
+# Security policy for rajathn8.github.io (RFC 9116)
+Contact: mailto:rajathn8@gmail.com
+Expires: 2027-06-27T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://rajathn8.github.io/.well-known/security.txt
