@@ -10,7 +10,7 @@ See `GAP_ANALYSIS.md` for the outstanding to-do list (benchmarked against `BUILD
 ### Structured data + OG image + IndexNow + cleanup (autonomous batch)
 - **JSON-LD:** added `WebSite`, `ProfilePage`, `BreadcrumbList`, and `FAQPage` (5 recruiter Q&As → eligible for rich snippets) to `index.html`.
 - **Branded OG image:** generated `assets/images/og-image.png` + `.webp` (1200×630, navy + orange) and pointed `og:image`/`twitter:image` on home/resume/blog to it. Person JSON-LD `image` left as the real photo.
-- **IndexNow:** created key file `280477f6f4b541e6b002ae0a575cc1b3.txt` and submitted all 4 URLs to the IndexNow API (Bing/Yandex/Seznam). No account required.
+- **IndexNow:** created key file `280477f6f4b541e6b002ae0a575cc1b3.txt`; verified live on Pages, then submitted all 4 URLs to the IndexNow API (Bing/Yandex/Seznam) — accepted **HTTP 202**. No account required.
 - **Cleanup:** deleted unreferenced stray root PNGs `theme.png` (4.6MB) + `evereset_walk_1.png` (3.7MB) — ~8.4MB.
 - **README:** fixed wrong live-site URL (`/rajath_rao_resume_2026` → `https://rajathn8.github.io/`).
 - **Note:** cache-busting `?v=` is N/A — all CSS is inline, no external CSS/JS links. `css/style.css` is orphaned/unreferenced (left in place).

@@ -30,18 +30,18 @@ Audited: 2026-06-27.
 - [x] `.well-known/security.txt` — RFC 9116 — done 2026-06-27
 - [x] Image sitemap — done 2026-06-27
 - [x] Geographic SEO meta: `geo.region`, `ICBM`, `og:locale` — done 2026-06-27
-- [ ] Cache-busting `?v=` query strings on CSS/JS
+- [n/a] Cache-busting `?v=` on CSS/JS — N/A, all CSS is inline, no external CSS/JS
 
 ### Structured data (we have 1 graph; playbook has 6 blocks)
-- [ ] `WebSite` schema
-- [ ] `ProfilePage` schema
-- [ ] `FAQPage` schema → rich snippets in Google
-- [ ] `BreadcrumbList` schema
-- [ ] (Optional, if job-seeking) `JobPosting` self-as-candidate
+- [x] `WebSite` schema — done 2026-06-28
+- [x] `ProfilePage` schema — done 2026-06-28
+- [x] `FAQPage` schema → rich snippets in Google — done 2026-06-28
+- [x] `BreadcrumbList` schema — done 2026-06-28
+- [ ] (Optional, if job-seeking) `JobPosting` self-as-candidate — needs your decision
 
 ### Search-engine registration
-- [ ] Bing Webmaster verification (`BingSiteAuth.xml`)
-- [ ] IndexNow key file + URL submission (Bing/Yandex/Seznam)
+- [ ] Bing Webmaster verification (`BingSiteAuth.xml`) — needs your Bing login
+- [x] IndexNow key file + URL submission (Bing/Yandex/Seznam) — done 2026-06-28 (HTTP 202)
 
 ### Crawler coverage
 - [x] robots.txt expanded from ~7 to ~26 named search + AI agents — done 2026-06-27
@@ -49,8 +49,8 @@ Audited: 2026-06-27.
 ### Performance / images
 - [x] WebP — all 12 images converted (9.05MB → 5.54MB) — done 2026-06-27
 - [x] Large hero images optimized + `<img>` tags swapped to WebP — done 2026-06-27
-- [ ] Two huge stray root PNGs likely unused: `theme.png` 4.6MB, `evereset_walk_1.png` 3.7MB (confirmed unreferenced — awaiting OK to delete)
-- [ ] No dedicated branded 1200×630 OG image (we reuse `profile-home.png`)
+- [x] Stray root PNGs `theme.png` + `evereset_walk_1.png` deleted (~8.4MB) — done 2026-06-28
+- [x] Branded 1200×630 OG image (`og-image.png`/`.webp`); og/twitter image swapped on home/resume/blog — done 2026-06-28
 
 ### Contact / conversion (lighter on this site by design, but available levers)
 - [ ] vCard (`.vcf`) one-tap contact save
@@ -64,7 +64,7 @@ Audited: 2026-06-27.
 - [ ] Contact / intake form
 
 ### Housekeeping
-- [ ] `README.md` live-site URL is wrong (`/rajath_rao_resume_2026` — should be `https://rajathn8.github.io/`)
+- [x] `README.md` live-site URL fixed — done 2026-06-28
 
 ---
 
