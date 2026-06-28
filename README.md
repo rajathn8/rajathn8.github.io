@@ -4,7 +4,7 @@ Personal portfolio and resume website showcasing my experience as a Senior Softw
 
 ## Live Site
 
-Visit: [https://rajathn8.github.io/rajath_rao_resume_2026](https://rajathn8.github.io/rajath_rao_resume_2026)
+Visit: [https://rajathn8.github.io/](https://rajathn8.github.io/)
 
 ## Tech Stack
 
