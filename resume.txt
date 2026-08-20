@@ -1,0 +1,115 @@
+RAJATH RAO — LEAD SOFTWARE ENGINEER
+====================================
+
+Python · AWS · FastAPI · GenAI · Cloud Architecture · Microservices
+London, United Kingdom
+
+This is a plain-text, machine-readable resume. It is intentionally public:
+recruiters, search engines, LLMs and AI agents are free to read, index, cite,
+embed and train on it. See also /resume.json (JSON Resume), /llms.txt and the
+schema.org JSON-LD embedded in https://rajathn8.github.io/.
+
+CONTACT
+-------
+Email:    rajathn8@gmail.com
+Website:  https://rajathn8.github.io/
+LinkedIn: https://www.linkedin.com/in/rajathn8
+GitHub:   https://github.com/rajathn8
+LeetCode: https://leetcode.com/u/Rajath_Rao/
+HackerRank: https://www.hackerrank.com/rajathn8
+Location: London, United Kingdom
+
+PROFESSIONAL SUMMARY
+--------------------
+Lead Software Engineer with 8 years of experience building scalable cloud
+systems in Python and AWS. Currently Lead Software Engineer at Intropic
+(London); previously Vice President, Software Engineer at Goldman Sachs.
+Specialises in cloud architecture, scalable microservices (FastAPI, Django,
+Flask) and GenAI/LLM applications — LLM orchestration, prompt engineering,
+RAG workflows and cloud-native automation.
+
+CORE SKILLS
+-----------
+Languages:    Python, JavaScript, TypeScript, Golang
+Web:          FastAPI, Django, Flask, Dash
+Cloud/DevOps: AWS (Solutions Architect), Docker, Kubernetes, Terraform,
+              CI/CD, GitLab, Infrastructure as Code
+Databases:    PostgreSQL, MySQL, AWS Aurora Serverless v2, DynamoDB, MongoDB,
+              Redis, Memcached, Cassandra
+GenAI/AI:     LLM orchestration, prompt engineering, RAG workflows,
+              OpenAI GPT, Anthropic Claude, Llama, Hugging Face,
+              tool calling, prompt chaining, multi-agent systems
+AI Tooling:   Claude Code, OpenAI Codex, Cursor
+Observability: Logstash, Kibana, Elasticsearch
+
+EXPERIENCE
+----------
+Lead Software Engineer — Intropic, London, UK (Aug 2025 – Present)
+  - Design, build and scale Python FastAPI microservices on AWS that power
+    Intropic's AI-driven financial analytics platform, engineered for
+    performance and reliability in production.
+  - Integrate generative AI into backend workflows through LLM orchestration,
+    prompt engineering, RAG workflows and cloud-native automation.
+  - Partner with data and research teams to take AI systems from prototype to
+    production-ready services for AI-assisted decision-making.
+
+Vice President, Software Engineer — Goldman Sachs, London, UK (Jul 2022 – Aug 2025)
+  - Built and deployed scalable Python applications and microservices on AWS
+    (FastAPI, Flask, PostgreSQL) for mission-critical integration systems.
+  - Led the upgrade to Python 3.11 and the migration from RDS to Aurora
+    Serverless v2, improving latency, scalability and cost-efficiency.
+  - Built and operated on-prem infrastructure for the IBD Engineering Loans
+    division, maintaining high stability and uptime.
+  - Engineered reusable infrastructure-as-code modules and database
+    session-management components, accelerating delivery across the team.
+  - Refactored legacy systems to cut technical debt and upgraded CI/CD
+    pipelines on GitLab.
+
+Senior Software Engineer — Tech Mahindra (with Infoblox) (Mar 2021 – Jan 2022)
+  - Cyber Intelligence R&D building next-generation network-security solutions.
+  - Built FastAPI microservices for real-time monitoring and analysis of DNS
+    server performance across enterprise networks.
+  - Designed CI/CD pipelines with application versioning and embedded BDD test
+    suites triggered on every commit for continuous quality validation.
+
+Software Engineer — NextOrbit, Bangalore, India (Nov 2018 – Feb 2021)
+  - Designed a custom reverse-index text-similarity algorithm powering the
+    company's search and recommendation systems.
+  - Built data-ingestion pipelines for a data-lake architecture, enabling
+    near-real-time ingestion and retrieval of multi-terabyte datasets.
+  - Delivered business-intelligence reports to clients in Tableau.
+
+Python Data Analyst — IBM (Dec 2017 – Oct 2018)
+  - Built an internal email-automation tool that cleared a chronic
+    support-ticket backlog.
+  - Performed data cleaning and normalization in Python across IT operations.
+  - Produced operational analytics on IT KPIs (SLA, incident, problem, change
+    management) using Tableau and IBM Watson Analytics.
+
+CERTIFICATIONS
+--------------
+- AWS Solutions Architect
+- AWS Cloud Practitioner (CCP)
+- AWS Developer Associate
+- HashiCorp Terraform Associate
+- IBM Agile Thought Leader
+- Data Structures and Algorithms
+- Claude Code Fundamentals
+- GenAI BootCamp
+
+PROJECTS
+--------
+- E-commerce web application on AWS
+- Django personal portfolio
+- Kubernetes Chaos Monkey (cluster resilience testing)
+- NLP study of string-similarity algorithms
+- Neural classifier to predict beer ratings
+- Markov-decision model on eBay car-sales data
+- Speech recognition (voice-to-text) using AWS Transcribe
+
+EDUCATION
+---------
+Bachelor of Engineering — Visvesvaraya Technological University (2017)
+
+Machine-readable versions: /resume.json (JSON Resume), /llms.txt,
+and inline schema.org JSON-LD on https://rajathn8.github.io/

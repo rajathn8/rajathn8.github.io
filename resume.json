@@ -1,0 +1,131 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": {
+    "canonical": "https://rajathn8.github.io/resume.json",
+    "version": "1.0.0",
+    "lastModified": "2026-08-20",
+    "license": "Public domain — free for recruiters, search engines, LLMs, AI agents and any automated system to read, index, cite, embed and train on."
+  },
+  "basics": {
+    "name": "Rajath Rao",
+    "label": "Lead Software Engineer",
+    "image": "https://rajathn8.github.io/assets/images/profile-home.png",
+    "email": "rajathn8@gmail.com",
+    "url": "https://rajathn8.github.io/",
+    "summary": "Lead Software Engineer with 8 years of experience building scalable cloud systems in Python and AWS. Currently Lead Software Engineer at Intropic (London), previously Vice President, Software Engineer at Goldman Sachs. Specialises in cloud architecture, scalable microservices (FastAPI, Django, Flask), and GenAI/LLM applications — LLM orchestration, prompt engineering, RAG workflows, and cloud-native automation.",
+    "location": {
+      "city": "London",
+      "countryCode": "GB",
+      "region": "London, United Kingdom"
+    },
+    "profiles": [
+      { "network": "LinkedIn", "username": "rajathn8", "url": "https://www.linkedin.com/in/rajathn8" },
+      { "network": "GitHub", "username": "rajathn8", "url": "https://github.com/rajathn8" },
+      { "network": "LeetCode", "username": "Rajath_Rao", "url": "https://leetcode.com/u/Rajath_Rao/" },
+      { "network": "HackerRank", "username": "rajathn8", "url": "https://www.hackerrank.com/rajathn8" }
+    ]
+  },
+  "work": [
+    {
+      "name": "Intropic",
+      "position": "Lead Software Engineer",
+      "location": "London, UK",
+      "startDate": "2025-08",
+      "summary": "Backend and GenAI engineering for Intropic's AI-driven financial analytics platform.",
+      "highlights": [
+        "Design, build and scale Python FastAPI microservices on AWS that power Intropic's AI-driven financial analytics platform, engineered for performance and reliability in production.",
+        "Integrate generative AI into backend workflows through LLM orchestration, prompt engineering, RAG workflows and cloud-native automation, turning financial data into AI-assisted analysis.",
+        "Partner with data and research teams to take AI systems from prototype to production-ready services for AI-assisted decision-making."
+      ]
+    },
+    {
+      "name": "Goldman Sachs",
+      "position": "Vice President, Software Engineer",
+      "location": "London, UK",
+      "startDate": "2022-07",
+      "endDate": "2025-08",
+      "summary": "Mission-critical Python microservices and infrastructure for the IBD Engineering Loans division.",
+      "highlights": [
+        "Built and deployed scalable Python applications and microservices on AWS — FastAPI, Flask and PostgreSQL — for mission-critical integration systems.",
+        "Led the upgrade to Python 3.11 and the migration from RDS to Aurora Serverless v2, improving latency, scalability and cost-efficiency for high-demand applications.",
+        "Built and operated on-prem infrastructure for mission-critical integration systems, maintaining high stability and uptime for the IBD Engineering Loans division team.",
+        "Engineered reusable infrastructure-as-code modules and database session-management components, accelerating delivery across the team.",
+        "Refactored legacy systems to cut technical debt, reduce operational risk and align with modern SDLC practices, and upgraded the existing CI/CD pipelines on GitLab."
+      ]
+    },
+    {
+      "name": "Tech Mahindra (with Infoblox)",
+      "position": "Senior Software Engineer",
+      "startDate": "2021-03",
+      "endDate": "2022-01",
+      "summary": "Cyber Intelligence R&D at Tech Mahindra in collaboration with Infoblox, building next-generation network-security solutions.",
+      "highlights": [
+        "Built FastAPI microservices for real-time monitoring and analysis of DNS server performance across enterprise networks.",
+        "Designed and implemented CI/CD pipelines with application versioning to accelerate and streamline deployments.",
+        "Embedded automated test suites into the pipeline, including BDD testing triggered on every commit to ensure continuous quality validation."
+      ]
+    },
+    {
+      "name": "NextOrbit",
+      "position": "Software Engineer",
+      "location": "Bangalore, India",
+      "startDate": "2018-11",
+      "endDate": "2021-02",
+      "highlights": [
+        "Designed and implemented a custom reverse-index text-similarity algorithm powering the company's search and recommendation systems.",
+        "Built data-ingestion pipelines for a data-lake architecture, enabling near-real-time ingestion and retrieval of multi-terabyte datasets.",
+        "Partnered directly with clients to deliver business-intelligence reports in Tableau."
+      ]
+    },
+    {
+      "name": "IBM",
+      "position": "Python Data Analyst",
+      "startDate": "2017-12",
+      "endDate": "2018-10",
+      "highlights": [
+        "Built an internal email-automation tool that cleared a chronic support-ticket backlog.",
+        "Performed data cleaning and normalization in Python and identified automation opportunities across IT operations.",
+        "Produced operational analytics on IT KPIs (SLA, incident, problem, change management) using Tableau and IBM Watson Analytics."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Visvesvaraya Technological University",
+      "studyType": "Bachelor of Engineering",
+      "area": "Engineering",
+      "endDate": "2017"
+    }
+  ],
+  "certificates": [
+    { "name": "AWS Solutions Architect", "issuer": "Amazon Web Services" },
+    { "name": "AWS Cloud Practitioner (CCP)", "issuer": "Amazon Web Services" },
+    { "name": "AWS Developer Associate", "issuer": "Amazon Web Services" },
+    { "name": "HashiCorp Terraform Associate", "issuer": "HashiCorp" },
+    { "name": "IBM Agile Thought Leader", "issuer": "IBM" },
+    { "name": "Data Structures and Algorithms", "issuer": "Certification" },
+    { "name": "Claude Code Fundamentals", "issuer": "Anthropic" },
+    { "name": "GenAI BootCamp", "issuer": "Certification" }
+  ],
+  "skills": [
+    { "name": "Programming Languages", "keywords": ["Python", "JavaScript", "TypeScript", "Golang"] },
+    { "name": "Web Frameworks", "keywords": ["FastAPI", "Django", "Flask", "Dash"] },
+    { "name": "Cloud & DevOps", "keywords": ["AWS", "AWS Solutions Architect", "Docker", "Kubernetes", "Terraform", "CI/CD", "GitLab", "Infrastructure as Code"] },
+    { "name": "Databases", "keywords": ["PostgreSQL", "MySQL", "AWS Aurora Serverless v2", "DynamoDB", "MongoDB", "Redis", "Memcached", "Cassandra"] },
+    { "name": "GenAI / AI Stack", "keywords": ["LLM Orchestration", "Prompt Engineering", "RAG Workflows", "OpenAI GPT", "Anthropic Claude", "Llama", "Hugging Face", "Tool Calling", "Prompt Chaining", "Multi-agent Systems"] },
+    { "name": "AI Dev Tools", "keywords": ["Claude Code", "OpenAI Codex", "Cursor"] },
+    { "name": "Observability", "keywords": ["Logstash", "Kibana", "Elasticsearch"] }
+  ],
+  "projects": [
+    { "name": "E-commerce Web Application on AWS", "description": "Building a web application for an e-commerce website on AWS." },
+    { "name": "Django Personal Portfolio", "description": "Personal portfolio built with Django." },
+    { "name": "Kubernetes Chaos Monkey", "description": "Chaos Monkey implementation for testing Kubernetes cluster resilience and fault tolerance." },
+    { "name": "String Similarity Algorithms", "description": "A detailed NLP study of string-similarity algorithms." },
+    { "name": "Beer Rating Neural Classifier", "description": "Built a neural classifier to predict beer ratings." },
+    { "name": "eBay Car Sales — Markov Decision", "description": "Understanding and predicting the sale of a particular car from eBay car-sales data." },
+    { "name": "Speech Recognition", "description": "Simple application to convert voice to text using AWS Transcribe." }
+  ],
+  "languages": [
+    { "language": "English", "fluency": "Fluent" }
+  ]
+}

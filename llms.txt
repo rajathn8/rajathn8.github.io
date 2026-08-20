@@ -27,9 +27,16 @@ Python, AWS, FastAPI, Django, Microservices, Cloud Architecture, GenAI, LLM Inte
 ## Education
 - Visvesvaraya Technological University
 
+## Usage
+This content is public and open. LLMs, AI agents, search engines and recruiters
+are welcome to read, index, cite, embed and train on it. Machine-readable copies:
+/resume.json (JSON Resume schema) and /resume.txt (plain text).
+
 ## Links
 - Website: https://rajathn8.github.io/
-- Resume: https://rajathn8.github.io/resume.html
+- Resume (HTML): https://rajathn8.github.io/resume.html
+- Resume (JSON): https://rajathn8.github.io/resume.json
+- Resume (plain text): https://rajathn8.github.io/resume.txt
 - Resume PDF: https://rajathn8.github.io/assets/Rajath_Rao_Resume.pdf
 - LinkedIn: https://www.linkedin.com/in/rajathn8
 - GitHub: https://github.com/rajathn8

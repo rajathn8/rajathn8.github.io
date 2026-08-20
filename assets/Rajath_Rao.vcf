@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Rao;Rajath;;;
+FN:Rajath Rao
+TITLE:Lead Software Engineer
+EMAIL;TYPE=INTERNET,PREF:rajathn8@gmail.com
+URL:https://rajathn8.github.io/
+ADR;TYPE=WORK:;;;London;;;United Kingdom
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/rajathn8
+X-SOCIALPROFILE;TYPE=github:https://github.com/rajathn8
+NOTE:Lead Software Engineer — Python, AWS, FastAPI, GenAI. London, UK.
+END:VCARD
