@@ -8,5 +8,5 @@ Allow: cite
 Allow: search
 
 # Please attribute when citing:
-# Rajath Rao — Senior Software Engineer — https://rajathn8.github.io/
+# Rajath Rao — Lead Software Engineer — https://rajathn8.github.io/
 Contact: rajathn8@gmail.com
